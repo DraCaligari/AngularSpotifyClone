@@ -20,6 +20,18 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
+    "paths": {
+      "@app/*": ["src/app/*"],
+      "@env/*": ["src/environments/*"],
+      "@core/*": ["src/app/core/*"],
+      "@shared/*": ["src/app/shared/*"],
+      "@modules/*": ["src/app/modules/*"],
+      "@services/*": ["src/app/services/*"],
+      "@models/*": ["src/app/models/*"],
+      "@utils/*": ["src/app/utils/*"],
+      "@assets/*": ["src/assets/*"]
+    },
+    "baseUrl": "./",
     "lib": [
       "ES2022",
       "dom"
