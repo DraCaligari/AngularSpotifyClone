@@ -13,14 +13,12 @@ import {TrackModel} from '@core/models/Tracks.model';
   styleUrl: './track-page.component.css'
 })
 export class TrackPageComponent implements OnInit {
-  mockTracksList:Array<TrackModel> = [
-  ]
+  mockTracksList:Array<TrackModel> = [];
   constructor() {
   }
 
   ngOnInit(): void {
     const { data }:any = (jsonData as any).default;
     this.mockTracksList = data;
-    console.log('Data:', data);
   }
 }
