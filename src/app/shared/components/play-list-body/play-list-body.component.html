@@ -7,7 +7,7 @@
     </ul>
     <ul class="play-list-rows" *ngFor="let track of tracks">
         <li class="track-name">
-            <ng-container *ngTemplateOutlet="coverSection;context:{track:track}"></ng-container>
+            <ng-container *ngTemplateOutlet="coverSection;context:{track}"></ng-container>
         </li>
         <li class="track-name-opacity">
             {{track.album}}
