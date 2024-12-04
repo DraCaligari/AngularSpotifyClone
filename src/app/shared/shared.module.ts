@@ -7,6 +7,7 @@ import {CardPlayerComponent} from '@shared/components/card-player/card-player.co
 import {SectionGenericComponent} from '@shared/components/section-generic/section-generic.component';
 import {PlayListHeaderComponent} from '@shared/components/play-list-header/play-list-header.component';
 import {PlayListBodyComponent} from '@shared/components/play-list-body/play-list-body.component';
+import {ImgBrokenDirective} from '@shared/directives/img-broken.directive';
 
 
 
@@ -21,7 +22,8 @@ import {PlayListBodyComponent} from '@shared/components/play-list-body/play-list
     CardPlayerComponent,
     SectionGenericComponent,
     PlayListHeaderComponent,
-    PlayListBodyComponent
+    PlayListBodyComponent,
+    ImgBrokenDirective,
   ],
   exports: [
     SideBarComponent,
@@ -30,7 +32,8 @@ import {PlayListBodyComponent} from '@shared/components/play-list-body/play-list
     CardPlayerComponent,
     SectionGenericComponent,
     PlayListHeaderComponent,
-    PlayListBodyComponent
+    PlayListBodyComponent,
+    ImgBrokenDirective,
   ]
 })
 export class SharedModule { }

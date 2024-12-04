@@ -1,6 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NgClass, NgIf } from '@angular/common';
 import { TrackModel } from '@core/models/Tracks.model';
+import {ImgBrokenDirective} from '@shared/directives/img-broken.directive';
 
 @Component({
   selector: 'app-card-player',
@@ -8,6 +9,7 @@ import { TrackModel } from '@core/models/Tracks.model';
   imports: [
     NgClass,
     NgIf,
+    ImgBrokenDirective,
   ],
   templateUrl: './card-player.component.html',
   styleUrl: './card-player.component.css'
